@@ -1,3 +1,4 @@
+// declare state, but don't define it 
 let state
 
 function changeState(state = { count: 0 }, action) {
